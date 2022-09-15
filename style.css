@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Pixel;
+  src: url(./assets/Pixel-LCD-7.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+#player,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#enemy_fly,
+#enemy_plant,
+#enemy_spider_big,
+#fire,
+#collisionAnimation,
+#lives {
+  display: none;
+}
+/* SideScroller Game
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Pixel;
+}
+body {
+background: black;
+}
+#canvas1 {
+  border: 5px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+#playerImage,
+#backgroundImage,
+#enemyImage {
+  display: none;
+}
+#fullScreenButton {
+  position: absolute;
+  font-size: 20px;
+  padding: 10px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+*/
+
+/* Parallax background
+
+body {
+  background: black;
+}
+#container {
+  position: absolute;
+  width: 800px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+}
+#canvas1 {
+  position: relative;
+  width: 800px;
+  height: 700px;
+}
+#slider {
+  width: 100%;
+}
+p {
+  color: white;
+}
+*/
+
+/* Sprite animation
+
+#canvas1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controls,
+select,
+option {
+  font-size: 25px;
+}
+*/

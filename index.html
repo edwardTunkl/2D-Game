@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript 2D-Game</title>
+  </head>
+  <body>
+    <canvas id="canvas1"></canvas>
+    <img id="player" src="./assets/player.png" alt="" />
+    <img id="layer1" src="./assets/backgroundLayers/forestLayers/layer-1.png" alt="layer1" />
+    <img id="layer2" src="./assets/backgroundLayers/forestLayers/layer-2.png" alt="layer2" />
+    <img id="layer3" src="./assets/backgroundLayers/forestLayers/layer-3.png" alt="layer3" />
+    <img id="layer4" src="./assets/backgroundLayers/forestLayers/layer-4.png" alt="layer4" />
+    <img id="layer5" src="./assets/backgroundLayers/forestLayers/layer-5.png" alt="layer5" />
+    <img src="./assets/enemies/enemy_fly.png" alt="" id="enemy_fly" />
+    <img src="./assets/enemies/enemy_plant.png" alt="" id="enemy_plant" />
+    <img src="./assets/enemies/enemy_spider_big.png" alt="" id="enemy_spider_big" />
+    <img src="./assets/fire.png" alt="fire" id="fire" />
+    <img src="./assets/boom.png" alt="" id="collisionAnimation" />
+    <img src="./assets/lives.png" alt="" id="lives" />
+    <!-- SideScroller Game
+      
+      <canvas id="canvas1"></canvas>
+      <img src="./assets/player.png" alt="player" id="playerImage" />
+      <img src="./assets/background_single.png" alt="background" id="backgroundImage" />
+      <img src="./assets/enemies/enemy_5.png" alt="" id="enemyImage" />
+      <button id="fullScreenButton">Toggle fullscreen</button>
+    -->
+
+    <!-- Parallax Background
+      
+      <div id="container">
+        <canvas id="canvas1"></canvas>
+        <p>Game speed: <span id="showGameSpeed"></span></p>
+        <input type="range" min="0" max="20" value="5" class="slider" id="slider" />
+      </div>
+    -->
+
+    <!-- Sprite Animation
+
+      <div class="controls">
+      <label for="animations">Choose Animation:</label>
+      <select name="animations" id="animations">
+        <option value="idle">Idle</option>
+        <option value="jump">Jump</option>
+        <option value="fall">Fall</option>
+        <option value="run">Run</option>
+        <option value="dizzy">Dizzy</option>
+        <option value="sit">Sit</option>
+        <option value="roll">Roll</option>
+        <option value="bite">Bite</option>
+        <option value="ko">Ko</option>
+        <option value="getHit">Get hit</option>
+      </select>
+    </div>
+  -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
